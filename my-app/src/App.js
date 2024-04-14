@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
+import NestingComponents from "./components/NestingComponents";
 
 function App() {
-  return (
-    <div className="App">
-      <FunctionalGreetingWithProps />
-    </div>
-  );
+  return <div className="App">
+      <NestingComponents />
+  </div>;
 }
 
 export default App;
