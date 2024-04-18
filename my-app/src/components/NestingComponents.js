@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import UserData from './UserData'
 import UserMessage from './UserMessage'
+import UserData from './UserData'
 
 class NestingComponents extends Component {
     constructor(props) {
@@ -13,7 +13,7 @@ class NestingComponents extends Component {
     render() {
         return (
             <div>
-                <UserData isLoaded={this.state.isLoaded} />
+                <UserData isLoggedIn={this.state.isLoggedIn} />
                 <UserMessage isLoggedIn={this.state.isLoggedIn} />
             </div>
         )
